@@ -1,0 +1,38 @@
+
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: center;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.main{
+    overflow-y: scroll; 
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+#one{
+    background-color: rgba(0, 128, 0, 0.571);
+}
+#two{
+    background-color: rgba(0, 0, 255, 0.543);
+}
+#three{
+    background-color: rgba(255, 255, 0, 0.534)
+}
+#four{
+    background-color: rgba(255, 0, 0, 0.543)
+}
+
+
+body{
+    background-image: url('/assets/bgpic.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
