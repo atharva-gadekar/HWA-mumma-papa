@@ -5,6 +5,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    
     scroll-snap-align: center;
     margin: 0;
     scroll-behavior: smooth;
@@ -16,7 +17,7 @@ section{
     scroll-behavior: smooth;
 }
 
-#one{
+/* #one{
     background-color: rgba(0, 128, 0, 0.571);
 }
 #two{
@@ -27,12 +28,35 @@ section{
 }
 #four{
     background-color: rgba(255, 0, 0, 0.543)
-}
+} */
 
 
 body{
-    background-image: url('/assets/bgpic.jpg');
+    background-image: url('/assets/Best/To\ be\ chrono/bgmain.png');
     background-size: cover;
     background-attachment: fixed;
+    background-position: 75%;
     margin: 0;
 }
+
+.img-cont{
+    width: 60vw;
+    height: fit-content;
+    overflow: hidden;
+}
+
+.main-img{
+    width: 60vw;
+    
+    border-radius: 0.5vw;
+}
+
+#zero{
+    height: 75vh;
+}
+
+#img17{
+    transform: scale(0.7);
+}
+
+

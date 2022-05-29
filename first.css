@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#one{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    background-image: url("./assets/Best/To\ be\ chrono/finalcard.png");
+    background-size: cover;
+    background-position: 75%;
+
+}
+
+#two{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-image: url("./assets/Best/To\ be\ chrono/opening2.png");
+    background-size: cover;
+    background-position: 80%;
+    display: none;
+}
+
+#card{
+    height: 80vh;
+    width: 24vw;
+    border-radius: 0.5vw;
+    box-shadow: 
+    0 0 45px white;
+    transition: 1s;
+}
+
+#card:hover{
+    transform: scale(1.15);
+    box-shadow: 
+    0 0 60px white;
+}
+
+#three{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./assets/Best/To\ be\ chrono/letter.png");
+    background-size: cover;
+    background-position: 80%;
+    display: none;
+}
+
+.letter{
+    width: 56vw;
+    height: 60vh;
+}
+
+.heading{
+    margin-top: 5vh;
+    font-size: 4vw;
+    font-family: 'Dancing Script', cursive;
+}
+
+.msg{
+    margin-top: 4vh;
+    font-size: 2vw;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    text-align: justify;
+}
