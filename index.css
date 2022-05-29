@@ -32,7 +32,7 @@ section{
 
 
 body{
-    background-image: url('/assets/Best/To\ be\ chrono/bgmain.png');
+    background-image: url('./assets/Best/bgmain.png');
     background-size: cover;
     background-attachment: fixed;
     background-position: 75%;
