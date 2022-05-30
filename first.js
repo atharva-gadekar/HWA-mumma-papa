@@ -9,7 +9,7 @@ card.addEventListener("click",()=>{
         document.getElementById("two").style.display = "none";
         document.getElementById("three").style.display = "flex";
         setTimeout(()=>{
-            window.open("index.html","_self");
+            window.open("main.html","_self");
         },4000)
     },4000)
 
