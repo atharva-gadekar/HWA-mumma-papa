@@ -6,6 +6,8 @@ vis.addEventListener("click",()=>{
 })
 
 
+
+
 gsap.registerPlugin(ScrollTrigger);
 
 var t1 = gsap.timeline();

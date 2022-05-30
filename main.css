@@ -49,15 +49,20 @@ body{
     padding: 0;
 }
 
-#one, #two, #three, #four{
+#one, #two, #three, #four #five, #six, #seven, #eight, #nine, #ten, #eleven, #twelve, #thirteen, #fourteen, #fifteen, #sixteen, #seventeen, #eighteen, #nineteen, #twenty, #twentyone, #twentytwo{
     opacity: 0;
 }
 
 .text{
     color: white;
     font-size: 2.2vw;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    text-align: justify;
+    line-height: 1.6;
     margin-top: -5vw;
     margin-bottom: 25vh;
+    border-radius: 0.4vw;
     width: 50vw;
     padding: 1.2vw;
     border: 2px solid gold;

@@ -1,17 +1,20 @@
 var card = document.getElementById("card");
 const rec = new Audio("./assets/Best/letter.ogg");
 const sbgs1 = new Audio("./assets/Best/sbgs1.mp3");
-const sbgs2 = new Audio("./assets/Best/sbgs2.mp3");
+const wishes = new Audio("./assets/Best/wishes.mp3");
 
 card.addEventListener("mouseover",()=>{
     sbgs1.play();
+    sbgs1.loop = true;
     sbgs1.volume = 0.5;
 })
 
 card.addEventListener("click",()=>{
     sbgs1.play();
+    sbgs1.loop = true;
     sbgs1.volume = 0.5;
     confetti.start();
+    wishes.play();
     document.getElementById("one").style.display = "none";
     document.getElementById("two").style.display = "block";
     setTimeout(()=>{
@@ -19,8 +22,8 @@ card.addEventListener("click",()=>{
         document.getElementById("three").style.display = "flex";
         setTimeout(()=>{
             rec.play();
-        },500)
-    },4000)
+        },1000)
+    },50000)
 
 })
 
