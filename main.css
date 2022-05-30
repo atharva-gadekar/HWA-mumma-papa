@@ -1,0 +1,66 @@
+.container{
+    width: 100vw;
+    margin: auto auto;
+    height: 100vh;
+    background-image: url('./assets/Best/bgmain.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 75%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visible::-webkit-scrollbar {
+    display: none;
+  }
+
+.visible{
+    width: 85vw;
+    height: 90vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.snap{
+    scroll-snap-align: center;
+}
+
+.sec{
+    width: 60vw;
+    height: 75vh;
+    margin: auto;
+    margin-top: 5vh;
+    overflow: hidden;
+}
+
+.main-img{
+    width: 60vw;
+    border-radius: 0.5vw;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#one, #two, #three, #four{
+    opacity: 0;
+}
+
+.text{
+    color: white;
+    font-size: 2.2vw;
+    margin-top: -5vw;
+    margin-bottom: 25vh;
+    width: 50vw;
+    padding: 1.2vw;
+    border: 2px solid gold;
+    margin-left: 28vw;
+    opacity: 0;
+}
