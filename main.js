@@ -1,4 +1,10 @@
 confetti.start();
+const music = new Audio("./assets/Best/bgs1.mp3");
+var vis = document.getElementById("visible");
+vis.addEventListener("click",()=>{
+    music.play();
+})
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -351,7 +357,7 @@ t14.to("#fourteen",{
 ScrollTrigger.create({
     animation: t13,
     scroller: ".visible",
-    trigger: "#seven",
+    trigger: "#thirteen",
 });
 
 ScrollTrigger.create({
