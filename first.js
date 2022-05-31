@@ -21,6 +21,7 @@ card.addEventListener("click",()=>{
         document.getElementById("two").style.display = "none";
         document.getElementById("three").style.display = "flex";
         setTimeout(()=>{
+            sbgs1.volume = 0.2;
             rec.play();
         },1000)
     },50000)

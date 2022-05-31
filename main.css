@@ -69,3 +69,7 @@ body{
     margin-left: 28vw;
     opacity: 0;
 }
+
+.last{
+    opacity: 0;
+}

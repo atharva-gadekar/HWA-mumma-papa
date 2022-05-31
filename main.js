@@ -5,6 +5,12 @@ vis.addEventListener("click",()=>{
     music.play();
 })
 
+// var video = document.getElementsByTagName("vid");
+// if (vid.paused) {
+// }
+// else{
+//     music.pause();
+// }
 
 
 
